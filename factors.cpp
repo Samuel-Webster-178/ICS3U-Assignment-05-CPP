@@ -43,6 +43,9 @@ main() {
     // output
     try {
         intNumber = std::stoi(strNumber);
+        if (intNumber < 1) {
+            throw std::invalid_argument("error");
+        }
         factors = CalculateFactors(intNumber);
         std::cout << "Factors: ";
         for (int i = 0; i < factors.size(); i++) {
