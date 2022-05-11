@@ -34,7 +34,7 @@ main() {
     std::vector< int > factors;
 
     // input
-    std::cout << "This program calculates the factors of an integer.";
+    std::cout << "This program calculates the factors of a natural number.";
     std::cout << std::endl;
     std::cout << "Your number is: ";
     std::cin >> strNumber;
